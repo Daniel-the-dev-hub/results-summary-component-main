@@ -1,0 +1,146 @@
+* {
+    font-family: 'Hanken Grotesk', arial;
+}
+
+section {
+
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 5%;
+
+
+    .section1 {
+        background-color: hsl(241, 81%, 54%);
+        width: 20%;
+        padding: 2em;
+        border-radius: 7px;
+        text-align: center;
+        z-index: 999;
+        
+    
+        .h2 {
+            color: rgb(245, 237, 237);
+            font-weight: 700;
+        }
+        
+        .circle {
+            background-color: hsl(234, 85%, 45%);
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-left: 14%;
+            
+            .nums {
+                color: white;
+                padding-top: 55px;
+    
+                .number2 {
+                    color: rgb(219, 218, 218);
+                    font-weight: 600;
+                }
+            }
+            
+            
+        }
+    
+        p {
+            color: rgb(245, 237, 237);
+            font-weight: 600;
+        }
+        
+    }
+
+    .section2 {
+        width: 20%;
+        padding: 2em;
+        box-shadow: 10px 10px 20px rgba(12 12, 12, 0.18);
+        border-radius: 7px;
+        text-align: start;
+        z-index: 2;
+        margin-left: -0.5%;
+
+        .red {
+            background-color: hsl(0, 100%, 96%);
+            display: flex;
+            justify-content: space-between;
+            padding-right: 1em;
+            padding-left: 1em;
+            border-radius: 5px;
+
+            .reaction {
+                margin: 4%;
+
+                b {
+                    color: red;
+                }
+            }
+        }
+        .yellow {
+            background-color: hsl(38, 100%, 94%);
+            display: flex;
+            justify-content: space-between;
+            padding-right: 1em;
+            padding-left: 1em;
+            border-radius: 5px;
+            margin-top: 4%;
+
+            .memory {
+                margin: 4%;
+                b {
+                    color: orange;
+                }
+            }
+        }
+        .green {
+            background-color: hsl(167, 100%, 95%);
+            display: flex;
+            justify-content: space-between;
+            padding-right: 1em;
+            padding-left: 1em;
+            border-radius: 5px;
+            margin-top: 4%;
+
+            .verbal {
+                margin: 4%;
+                b {
+                    color: green;
+                }
+            }
+        }
+        .blue {
+            background-color: hsl(234, 100%, 96%);
+            display: flex;
+            justify-content: space-between;
+            padding-right: 1em;
+            padding-left: 1em;
+            border-radius: 5px;
+            margin-top: 4%;
+
+            .visual {
+                margin: 4%;
+                b {
+                    color: blue;
+                }
+            }
+        }
+
+        button {
+            padding: 1em 7.9em;
+            margin-top: 15%;
+            border-radius: 50px;
+            border: 0;
+            background-color: hsl(224, 30%, 27%);
+            color: white;
+            font-weight: 700;
+        }
+    }
+
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 800;
+}
+
